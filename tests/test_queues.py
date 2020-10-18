@@ -31,28 +31,5 @@ class TestStack(TestCase):
         stack.pop()
         self.assertEqual(stack.front(), 1)
 
-
-    # def test_length_one_element_in_list(self):
-    #     values = LinkedList[int]()
-    #     values.head = LinkedList.Node[int](9)
-    #     self.assertEqual(values.length(), 1)
-    #     self.assertEqual(1, len(values))
-    #
-    # def test_length_many_elements_in_list(self):
-    #     values = LinkedList[int]()
-    #     values.head = LinkedList.Node[int](9, LinkedList.Node[int](5, LinkedList.Node[int](1)) )
-    #     self.assertEqual(values.length(), 3)
-    #     self.assertEqual(3, len(values))
-    #
-    # def test_str_empty_list(self):
-    #     values = LinkedList[int]()
-    #     self.assertEqual(str(values), '[]')
-    #
-    # def test_str_one_element_in_list(self):
-    #     values = LinkedList[int]()
-    #     values.head = LinkedList.Node[int](9)
-    #     self.assertEqual(str(values), '[9]')
-
-
 if __name__ == "__main__":
     main()
